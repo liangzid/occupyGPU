@@ -1,0 +1,18 @@
+#+title: maintain your rights to specific GPU device
+#+date: Thu Apr 13 09:40:23 2023
+#+author: Zi Liang
+#+email: liangzid@stu.xjtu.edu.cn
+#+latex_class: elegantpaper
+
+This code is used to occupy the GPU against other people use it.
+
+Usage:
+
+#+begin_src sh
+python hehe.py --device 5
+#+end_src
+
+can occupy GPU 5.
+
+
+
