@@ -22,7 +22,10 @@ def setup_train_args():
     设置训练参数
     """
     parser = argparse.ArgumentParser()
-    parser.add_argument('--device', default="cpu",
+    # parser.add_argument('--device', default="cpu",
+    #                     type=str, required=False,)
+
+    parser.add_argument('--device', default="0",
                         type=str, required=False,)
     return parser.parse_args()
 
